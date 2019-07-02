@@ -13,20 +13,20 @@
     -   Then create new App using MyApp => Create App and Give the app name and create the app. Check out the below screenshot.
 
  
-    ![alt text](https://raw.githubusercontent.com/myvsparth/firebase_fb_login/master/screenshots/1.png)
+    ![alt text](https://raw.githubusercontent.com/myvsparth/flutter_fb_login/master/screenshots/1.png)
 
-    ![alt text](https://raw.githubusercontent.com/myvsparth/firebase_fb_login/master/screenshots/2.png)
+    ![alt text](https://raw.githubusercontent.com/myvsparth/flutter_fb_login/master/screenshots/2.png)
 
     -   After Creating App click on Integrate Facebook Login and confirm.
     -   Then Go to Dashboard Tab go to under My Products you will find Facebook Login=>Settings(Click on that).
     -   Then you will find in Left tab QuickStart Under Facebook Login Menu Click on it.
     -   Then Click on Android check out the screenshot.
 
-    ![alt text](https://raw.githubusercontent.com/myvsparth/firebase_fb_login/master/screenshots/3.png)
+    ![alt text](https://raw.githubusercontent.com/myvsparth/flutter_fb_login/master/screenshots/3.png)
  
     -   Then in Step 1 Click Next, Step 2 Click Next then in Step 3: Tell Us about Your Android Project Give Package Name and Default Activity Class Name as I have given in below screenshot. And Save => Use This Package => Continue
 
-    ![alt text](https://raw.githubusercontent.com/myvsparth/firebase_fb_login/master/screenshots/4.png)
+    ![alt text](https://raw.githubusercontent.com/myvsparth/flutter_fb_login/master/screenshots/4.png)
         Package Name: com.example.flutter_fb_login
         Default Activity: com.example.flutter_fb_login.MainActivity
 
@@ -46,7 +46,7 @@
         
         -   Then goto android/app/src/main/AndroidManifest.xml and paste below code ( you have in your facebook project ) under first activity and in application tag. Please check the screenshot.
 
-        ![alt text](https://raw.githubusercontent.com/myvsparth/firebase_fb_login/master/screenshots/5.png)
+        ![alt text](https://raw.githubusercontent.com/myvsparth/flutter_fb_login/master/screenshots/5.png)
 
         -   Next for all next steps.
         -   You are all done with Facebook App Setup. Congratulations…. :)
@@ -55,18 +55,18 @@
     -   Goto https://console.firebase.google.com/ and add new project. I will share screenshot how it looks so you will get a better idea.
     -   Click on Add Project to add new project in Google Firebase. Then you will find below form
 
-    ![alt text](https://raw.githubusercontent.com/myvsparth/firebase_fb_login/master/screenshots/6.png)
-    ![alt text](https://raw.githubusercontent.com/myvsparth/firebase_fb_login/master/screenshots/7.png)
+    ![alt text](https://raw.githubusercontent.com/myvsparth/flutter_fb_login/master/screenshots/6.png)
+    ![alt text](https://raw.githubusercontent.com/myvsparth/flutter_fb_login/master/screenshots/7.png)
 
     -   Give a project name and accept the terms and condition and click on the Create Project. It will take some time to create a new project and redirect you to project overview page.
 
     -   Now, you need to add android app in this project [Please check below screenshot]. You can add new android project from clicking on android icon. You can also add ios project if you want to create ios application for the same.
 
-    ![alt text](https://raw.githubusercontent.com/myvsparth/firebase_fb_login/master/screenshots/8.png)
+    ![alt text](https://raw.githubusercontent.com/myvsparth/flutter_fb_login/master/screenshots/8.png)
 
     -   In Project Overview add android app for that click on the android icon. It will open new form please check below screenshot.
 
-    ![alt text](https://raw.githubusercontent.com/myvsparth/firebase_fb_login/master/screenshots/9.png)
+    ![alt text](https://raw.githubusercontent.com/myvsparth/flutter_fb_login/master/screenshots/9.png)
 
     -   Android package name you will find in the AndroidManifest.xml file in the Android => App => main folder of your project.
     -   App nickname is optional
@@ -91,19 +91,19 @@
     -   Hurrey :) your android app has been created.
 
 4.  Now, you need to enable Facebook Sign In method in firebase. For that you need to go to the Authentication tab and then Signin method tab. From there enable Facebook sign in method. Please check the screenshot.
-    ![alt text](https://raw.githubusercontent.com/myvsparth/firebase_fb_login/master/screenshots/10.png)
+    ![alt text](https://raw.githubusercontent.com/myvsparth/flutter_fb_login/master/screenshots/10.png)
 
     -   You need App ID and App secret get that from Your Facebook App that we have created in previous steps. You will get App Id and secret From Settings => Basic. Check the below screenshot. Note: Click on Show App Secrete to Copy
 
-    ![alt text](https://raw.githubusercontent.com/myvsparth/firebase_fb_login/master/screenshots/11.png)
+    ![alt text](https://raw.githubusercontent.com/myvsparth/flutter_fb_login/master/screenshots/11.png)
 
     -   Copy Oauth redirect from Firebase App and paste in Facebook App Facebook Login=>Settings Valid OAuth Redirect URIs. Please check below screenshot
 
     Copy From Firebase App
-    ![alt text](https://raw.githubusercontent.com/myvsparth/firebase_fb_login/master/screenshots/12.png)
+    ![alt text](https://raw.githubusercontent.com/myvsparth/flutter_fb_login/master/screenshots/12.png)
 
     Paste in Facebook App (Login=>Settings Valid OAuth Redirect URIs)
-    ![alt text](https://raw.githubusercontent.com/myvsparth/firebase_fb_login/master/screenshots/13.png)
+    ![alt text](https://raw.githubusercontent.com/myvsparth/flutter_fb_login/master/screenshots/13.png)
 
     -   You are all done with firebase Setup. Congratulations…. :)
 
@@ -115,7 +115,7 @@
     flutter_facebook_login:
     ```
     -   Please check below screenshot you will get more idea where to add the dependency
-    ![alt text](https://raw.githubusercontent.com/myvsparth/firebase_fb_login/master/screenshots/14.png)
+    ![alt text](https://raw.githubusercontent.com/myvsparth/flutter_fb_login/master/screenshots/14.png)
 
     -   Run flutter packages get in terminal OR If you are using Visual Studio Code then after saving file it will automatically runs the flutter packages get command.
 
@@ -168,7 +168,7 @@
     ```
 
 7.  When you sign up successfully you can check that google firebase store the user detail in server. Please check the screenshot.
-    ![alt text](https://raw.githubusercontent.com/myvsparth/firebase_fb_login/master/screenshots/15.png)
+    ![alt text](https://raw.githubusercontent.com/myvsparth/flutter_fb_login/master/screenshots/15.png)
 
 ## MAY BE ERRORS:
     #   Error: import androidx.annotation.NonNull;
@@ -187,7 +187,7 @@
 -   PLEASE CHECK OUT GIT REPO FOR FULL SOURCE CODE. YOU NEED TO ADD YOUR google-services.json FILE IN ANDROID => APP FOLDER. AND ALSO REPLACE android/app/src/main/res/values/strings.xml WITH YOUR FACEBOOK APP NAME, APP ID AND SECRET.
 
 ## Git Repo:
--   https://github.com/myvsparth/firebase_fb_login
+-   https://github.com/myvsparth/flutter_fb_login
 
 ## Conclusion:
 - Google firebase is very good service provider in terms of data validation, data store, realtime data, push notification. We have only used google firebase facebook sign in feature. We can do more out of it.
